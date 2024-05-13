@@ -71,7 +71,7 @@ def test_dividir_por_zero():
     # Assert / Valida
     assert resultado_esperado == resultado_obtido
 
-# Test Baseados em Dados = Data Druveb Tests (DDT)
+# Test Baseados em Dados = Data Driven Tests (DDT)
 
 @pytest.mark.parametrize('num1, num2, resultado_esperado',
                          [ # array / matriz
